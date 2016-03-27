@@ -4,8 +4,8 @@
 //
 
 #import "CellController.h"
-
-
+#import "Http.h"
+#import "AFNetworking.h"
 @interface CellController()
 
 @end
@@ -15,6 +15,11 @@
 - (IBAction)like:(id)sender {
     int  n = [self.likesNumber.text intValue];
     self.likesNumber.text =[NSString stringWithFormat:@"%d",++n];
+    
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+    
+    
+    
 }
 
 
