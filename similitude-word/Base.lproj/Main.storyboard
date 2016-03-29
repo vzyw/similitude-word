@@ -203,9 +203,9 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="definitions" destination="a1p-VQ-XBW" id="naw-An-buP"/>
+                                            <outlet property="itemId" destination="RTo-wQ-AwP" id="82j-2n-lcA"/>
                                             <outlet property="likesNumber" destination="mZz-2U-QDw" id="dnT-ZG-itD"/>
                                             <outlet property="word" destination="Q4G-yM-ESL" id="OBB-Qc-QI4"/>
-                                            <outlet property="wordId" destination="RTo-wQ-AwP" id="y8k-8k-UFP"/>
                                             <segue destination="T4G-75-DfR" kind="push" identifier="toSelf" id="Pex-LM-Acf"/>
                                         </connections>
                                     </tableViewCell>

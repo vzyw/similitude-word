@@ -9,8 +9,6 @@
 #import "Button.h"
 
 @implementation Button
--(void)f{
-    
-}
+
 
 @end

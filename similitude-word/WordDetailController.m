@@ -65,7 +65,7 @@
     NSDictionary * word =(NSDictionary *)data->similitudeWordList[indexPath.row];
     
     
-    cell.wordId.text = word[@"id"];
+    cell.itemId.text = word[@"id"];
     cell.word.text =word[@"word_name"];
     cell.definitions.text = word[@"definitions"];
     cell.likesNumber.text = word[@"like_numbers"];

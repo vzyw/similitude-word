@@ -18,10 +18,10 @@
     
     [likeBtn setBackgroundImage:[UIImage imageNamed:@"liked"] forState:UIControlStateNormal];
     
-    //[likeBtn setEnabled:NO];
-    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
-    
-    
+    [likeBtn setEnabled:NO];
+    NSString * url = [NSString stringWithFormat:@"http://114.215.154.149/similitude_word/index.php/Api/Add/update?item_id=%@",self.itemId.text];
+    Http * likePlus = [[Http alloc]initWithURL:url];
+    [likePlus asyGet];
     
 }
 

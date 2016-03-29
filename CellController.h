@@ -10,6 +10,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *word;
 @property (weak, nonatomic) IBOutlet UILabel *definitions;
 @property (weak, nonatomic) IBOutlet UILabel *likesNumber;
-@property (weak, nonatomic) IBOutlet UILabel *wordId;
+@property (weak, nonatomic) IBOutlet UILabel *itemId;
 
 @end
