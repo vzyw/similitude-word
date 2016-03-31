@@ -15,7 +15,7 @@
 - (IBAction)like:(UIButton * )likeBtn {
     int  n = [self.likesNumber.text intValue];
     self.likesNumber.text =[NSString stringWithFormat:@"%d",++n];
-    
+        
     [likeBtn setBackgroundImage:[UIImage imageNamed:@"liked"] forState:UIControlStateNormal];
     
     [likeBtn setEnabled:NO];

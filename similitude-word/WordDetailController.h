@@ -10,7 +10,8 @@
 #import "WordData.h"
 #import <AVFoundation/AVFoundation.h>
 @interface WordDetailController : UIViewController <UITableViewDelegate,UITableViewDataSource>
-@property WordData * data;
+@property WordData * originalData;
+@property NSArray * data;
 @property AVAudioPlayer * player;
 
 @end

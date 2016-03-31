@@ -74,7 +74,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([segue.identifier isEqualToString:@"toWordDetailView"]) {
         WordDetailController * wordDetailView = segue.destinationViewController;
-        wordDetailView.data = sender;
+        wordDetailView.originalData = sender;
     }
     
 }
