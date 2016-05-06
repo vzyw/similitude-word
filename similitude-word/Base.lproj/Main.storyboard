@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="444"/>
+            <point key="canvasLocation" x="412" y="444"/>
         </scene>
         <!--Word Detail Controller-->
         <scene sceneID="JpC-SE-df7">
@@ -300,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="40R-PE-1ZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="853" y="444"/>
+            <point key="canvasLocation" x="817" y="444"/>
         </scene>
         <!--Add Word Controller-->
         <scene sceneID="uJW-cC-OQr">
@@ -450,7 +450,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SPt-O3-GNL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1317" y="379"/>
+            <point key="canvasLocation" x="1205" y="444"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QgY-vR-GqT">
@@ -468,24 +468,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y2h-0e-1Tm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="248.79999999999995" y="-264.82999999999993"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="AzO-bc-mcc">
-            <objects>
-                <viewController id="kwM-pL-U2L" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="yDY-Ga-gKs"/>
-                        <viewControllerLayoutGuide type="bottom" id="qvS-Wj-s4c"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="WJk-rp-6Ad">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TTC-qJ-FTI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+            <point key="canvasLocation" x="18" y="444"/>
         </scene>
     </scenes>
     <resources>
